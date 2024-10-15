@@ -1,0 +1,224 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #050505;
+    background-image: url('../static/imagen_index.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    padding-top: 100px; /* Para dejar espacio al header */
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #004d40; /* Verde oscuro sólido (sin transparencia) */
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header img {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #3959d772;
+}
+
+/* Contenedor principal */
+.contenedor-principal {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 20px auto;
+}
+
+/* Contenido principal */
+.contenido {
+    flex: 2;
+    padding: 20px;
+}
+
+/* Barra lateral */
+.barra-lateral {
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Ventajas y Testimonios */
+#ventajas, #testimonios {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente igual al de la barra lateral */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#ventajas h2, #testimonios h2 {
+    color: #4caf50; /* Verde para el título */
+    margin-bottom: 15px;
+}
+
+/* Títulos y párrafos */
+h1 {
+    font-size: 2.5em;
+    margin: 20px 0 10px;
+    color: white; /* Asegúrate de que el color sea blanco para mejor visibilidad */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidad */
+}
+
+h2 {
+    color: #4caf50; /* Verde para el título */
+    margin-bottom: 15px;
+}
+
+p {
+    color: white; /* Color del texto blanco */
+    background: none; /* Sin fondo */
+    border-radius: 0; /* Sin bordes redondeados */
+    box-shadow: none; /* Sin sombra */
+}
+
+/* Sección de bienvenida */
+#bienvenida {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: rgb(13, 134, 190); /* Color del texto blanco */
+}
+
+#bienvenida p {
+    max-width: 1500px;
+}
+
+/* Testimonios */
+#testimonios div {
+    margin-bottom: 15px;
+    border-left: 4px solid #4caf50; /* Línea verde */
+    padding-left: 10px;
+}
+
+/* Ventajas */
+#ventajas ul {
+    padding-left: 20px;
+}
+
+#ventajas ul li, #testimonios div {
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* Botones de Llamada a la Acción */
+#call-to-action {
+    text-align: center;
+}
+
+#call-to-action a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #4caf50;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+#call-to-action a:hover {
+    background: #388e3c;
+}
+
+/* Redes Sociales */
+.social_box {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social_box a {
+    margin: 0 10px;
+}
+
+.social_box img {
+    width: 40px;
+    transition: transform 0.3s;
+}
+
+.social_box img:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .contenedor-principal {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .barra-lateral {
+        margin-top: 20px;
+    }
+}
+/* Sección de bienvenida */
+#bienvenida {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: white; /* Color del texto blanco */
+}
+
+#bienvenida h1 {
+    color: #4caf50; /* Cambia el color del título a verde */
+}
+
+#bienvenida p {
+    max-width: 1500px;
+}

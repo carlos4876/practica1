@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Vida Sana</title>
+    <link rel="stylesheet" href="static/estilo_contacto.css"> <!-- Asegúrate de tener tu CSS aquí -->
+</head>
+<body>
+
+    <!-- Encabezado de la Página -->
+    <header>
+        <h1>Vida Saludable</h1>
+        <nav>
+            <a href="/">Inicio</a>
+            <a href="/noticias">Noticias</a>
+            <a href="/">Volver</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección de Formulario de Contacto -->
+        <h1>Formulario de inscripcion</h1>
+        <form action="/contactos" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br><br>
+
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="mensaje">Mensaje de usuario:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+            <br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+
+        <!-- Sección de Información de Contacto -->
+        <h2>Si te interesa, nos puedes encontrar:</h2>
+        <section class="info_section layout_padding2">
+            <div class="container">
+                <div class="info_items">
+                    <!-- Ubicación -->
+                    <a href="#">
+                        <div class="item">
+                            <div class="img-box box-1">
+                                <img src="static/ubicacion.png" alt="Icono de ubicación">
+                            </div>
+                            <div class="detail-box">
+                                <p class="contact-text">Ubicación: Av. Arce</p>
+                            </div>
+                        </div>
+                    </a>
+        
+                    <!-- Teléfono -->
+                    <a href="#">
+                        <div class="item">
+                            <div class="img-box box-2">
+                                <img src="static/telephone-white.png" alt="Icono de teléfono">
+                            </div>
+                            <div class="detail-box">
+                                <h3 class="contact-text">Teléfono:</h3>
+                                <p class="contact-text">73056547</p>
+                                <p class="contact-text">78295644</p>
+                            </div>
+                        </div>
+                    </a>
+        
+                    <!-- Email -->
+                    <a href="#">
+                        <div class="item">
+                            <div class="img-box box-3">
+                                <img src="static/email.png" alt="Icono de email">
+                            </div>
+                            <div class="detail-box">
+                                <h4 class="contact-text">Email:</h4>
+                                <p class="contact-text">VidaSaludable@gmail.com</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Sección de Ubicación con Google Maps -->
+        <div>
+            <h2>Ubicación de la Empresa</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509903!2d144.95373531568806!3d-37.81720997975113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11f4c5%3A0x5045675218ced30!2sYour+Company+Name!5e0!3m2!1ses!2sbo!4v1618274045576!5m2!1ses!2sbo" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Vida Saludable. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,174 @@
+nav {
+    display: flex; /* Usamos flexbox para alinear los enlaces */
+    justify-content: center; /* Centramos los enlaces en la barra de navegación */
+    margin: 20px 0; /* Espaciado vertical */
+}
+
+nav a {
+    padding: 10px 20px; /* Espaciado interno */
+    margin: 0 15px; /* Margen entre botones */
+    background-color: #4caf50; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Transición suave */
+}
+
+/* Efecto hover para los enlaces */
+nav a:hover {
+    transform: translateY(-3px); /* Movimiento hacia arriba al pasar el ratón */
+    background-color: #388e3c; /* Color de fondo más oscuro al pasar el ratón */
+}
+
+
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    
+}
+
+/* Encabezado */
+header {
+    background: #2461ac; /* Color verde */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Navegación */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Estilos del formulario */
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #020d18; /* Color verde */
+    margin-bottom: 15px;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background: #4CAF50; /* Color verde */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background: #45a049; /* Color verde más oscuro */
+}
+
+/* Estilos de la sección de contacto */
+.info_section {
+    margin-top: 20px;
+    background: rgb(66, 135, 177);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.info_items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item {
+    text-align: center;
+    margin: 10px;
+    flex: 1;
+}
+
+.img-box {
+    margin-bottom: 10px;
+}
+
+.img-box img {
+    width: 50px; /* Ajusta el tamaño de los iconos */
+}
+
+/* Estilos de pie de página */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #4CAF50; /* Color verde */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para el iframe de Google Maps */
+iframe {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.contact-text {
+    color: #0c0807; /* Color fuerte como Naranja (Orange Red) */
+    font-weight: bold; /* Negrita */
+    font-size: 1.2em; /* Tamaño de fuente aumentado */
+    margin: 5px 0; /* Espaciado entre párrafos */
+}
+
+.info_section {
+    padding: 20px; /* Espaciado interno */
+    background-color: #393fbd51; /* Fondo suave */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
