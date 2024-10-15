@@ -1,45 +1,45 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif; /* Fuente elegante */
-    color: #333; /* Color de texto oscuro para contraste */
-    background-image: url('static/imagen_index.jpg'); /* Reemplaza con la ruta de tu imagen */
-    background-size: cover; /* Cubrir todo el fondo */
-    background-position: center; /* Centrar la imagen */
+    font-family: 'Arial', sans-serif; 
+    color: #333; 
+    background-image: url('static/imagen_index.jpg'); 
+    background-size: cover;
+    background-position: center; 
     background-image: url('../static/imagen_index.jpg');
 }
 
 .container {
-    max-width: 600px; /* Ancho máximo del contenedor */
-    margin: 50px auto; /* Centrar horizontalmente */
-    padding: 20px; /* Espaciado interno */
-    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 600px; 
+    margin: 50px auto; 
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
 }
 
 h1 {
-    font-size: 2em; /* Tamaño de fuente grande */
-    margin-bottom: 20px; /* Espacio inferior */
-    text-align: center; /* Centrar texto */
-    color: #2c3e50; /* Color de título */
+    font-size: 2em; 
+    margin-bottom: 20px; 
+    text-align: center; 
+    color: #2c3e50; 
 }
 
 p {
-    font-size: 1.2em; /* Tamaño de fuente más grande */
-    margin: 10px 0; /* Espaciado superior e inferior */
+    font-size: 1.2em; 
+    margin: 10px 0; 
 }
 
 .back-button {
-    display: inline-block; /* Permitir padding */
-    padding: 10px 20px; /* Espaciado interno del botón */
-    background-color: #3498db; /* Color de fondo del botón */
-    color: white; /* Color de texto blanco */
-    text-decoration: none; /* Sin subrayado */
-    border-radius: 5px; /* Bordes redondeados */
-    transition: background-color 0.3s; /* Efecto de transición */
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: #3498db; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
 }
 
 .back-button:hover {
-    background-color: #2980b9; /* Color más oscuro en hover */
+    background-color: #2980b9; 
 }
