@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    padding-top: 100px; /* Para dejar espacio al header */
+    padding-top: 100px; 
 }
 
 /* Encabezado */
@@ -17,7 +17,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #004d40; /* Verde oscuro sólido (sin transparencia) */
+    background-color: #004d40;
     color: white;
     padding: 20px;
     position: fixed;
@@ -73,7 +73,7 @@ nav a:hover {
 .barra-lateral {
     flex: 1;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    background-color: rgba(0, 0, 0, 0.7); 
     color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
@@ -83,13 +83,13 @@ nav a:hover {
 #ventajas, #testimonios {
     padding: 20px;
     margin: 20px auto;
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente igual al de la barra lateral */
+    background-color: rgba(0, 0, 0, 0.7); 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 #ventajas h2, #testimonios h2 {
-    color: #4caf50; /* Verde para el título */
+    color: #4caf50; 
     margin-bottom: 15px;
 }
 
@@ -97,30 +97,30 @@ nav a:hover {
 h1 {
     font-size: 2.5em;
     margin: 20px 0 10px;
-    color: white; /* Asegúrate de que el color sea blanco para mejor visibilidad */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidad */
+    color: white; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); 
 }
 
 h2 {
-    color: #4caf50; /* Verde para el título */
+    color: #4caf50;
     margin-bottom: 15px;
 }
 
 p {
-    color: white; /* Color del texto blanco */
-    background: none; /* Sin fondo */
-    border-radius: 0; /* Sin bordes redondeados */
-    box-shadow: none; /* Sin sombra */
+    color: white; 
+    background: none; 
+    border-radius: 0; 
+    box-shadow: none; 
 }
 
 /* Sección de bienvenida */
 #bienvenida {
     padding: 20px;
     margin: 20px auto;
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    background-color: rgba(0, 0, 0, 0.7); 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    color: rgb(13, 134, 190); /* Color del texto blanco */
+    color: rgb(13, 134, 190); 
 }
 
 #bienvenida p {
@@ -130,7 +130,7 @@ p {
 /* Testimonios */
 #testimonios div {
     margin-bottom: 15px;
-    border-left: 4px solid #4caf50; /* Línea verde */
+    border-left: 4px solid #4caf50; 
     padding-left: 10px;
 }
 
@@ -209,14 +209,14 @@ p {
 #bienvenida {
     padding: 20px;
     margin: 20px auto;
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    background-color: rgba(0, 0, 0, 0.7); 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    color: white; /* Color del texto blanco */
+    color: white; 
 }
 
 #bienvenida h1 {
-    color: #4caf50; /* Cambia el color del título a verde */
+    color: #4caf50; 
 }
 
 #bienvenida p {
