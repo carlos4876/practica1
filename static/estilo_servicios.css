@@ -1,8 +1,8 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background: url('static/imagen_index.jpg') no-repeat center center fixed; /* Cambia la ruta aquí si es necesario */
-    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background: url('static/imagen_index.jpg') no-repeat center center fixed; 
+    background-size: cover; 
     color: #333;
     padding: 20px;
 
@@ -27,7 +27,7 @@ h2 {
 }
 
 .service {
-    background: rgba(29, 53, 87, 0.8); /* Fondo oscuro con opacidad */
+    background: rgba(29, 53, 87, 0.8);
     color: #F1FAEE;
     padding: 20px;
     margin: 15px;
