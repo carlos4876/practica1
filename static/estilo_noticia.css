@@ -1,4 +1,3 @@
-/* Estilos básicos para el cuerpo */
 body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(to bottom right, #e6f7ff, #f9f9f9);
@@ -10,7 +9,7 @@ body {
 }
 /* Estilo para el título de Últimas Noticias */
 .noticias h2 {
-    color: rgb(255, 255, 255); /* Cambia el color a blanco */
+    color: rgb(255, 255, 255); 
 }
 
 /* Encabezado */
@@ -26,9 +25,9 @@ header h1 {
 }
 
 nav {
-    display: flex; /* Usamos flexbox para alinear los enlaces */
-    justify-content: center; /* Centramos los enlaces en la barra de navegación */
-    margin: 20px 0; /* Espaciado vertical */
+    display: flex; 
+    justify-content: center;
+    margin: 20px 0; 
 }
 
 nav ul {
@@ -42,18 +41,18 @@ nav ul li {
 }
 
 nav a {
-    padding: 10px 20px; /* Espaciado interno */
-    margin: 0 15px; /* Margen entre botones */
-    background-color: #15a897; /* Color de fondo */
-    color: white; /* Color del texto */
-    text-decoration: none; /* Sin subrayado */
-    border-radius: 5px; /* Bordes redondeados */
-    transition: transform 0.3s ease, background-color 0.3s ease; /* Transición suave */
+    padding: 10px 20px;
+    margin: 0 15px; 
+    background-color: #15a897; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 nav a:hover {
-    transform: translateY(-3px); /* Movimiento hacia arriba al pasar el ratón */
-    background-color: #5059d5; /* Color de fondo más oscuro al pasar el ratón */
+    transform: translateY(-3px); 
+    background-color: #5059d5; 
 }
 
 /* Contenedor principal */
@@ -65,7 +64,7 @@ main {
 
 /* Sección de contenido principal */
 .contenido-principal {
-    flex: 3; /* Toma 3 partes del espacio */
+    flex: 3; 
 }
 
 .noticias {
@@ -91,14 +90,14 @@ main {
 
 /* Barra lateral */
 .barra-lateral {
-    flex: 1; /* Toma 1 parte del espacio */
+    flex: 1;
     background: #f1f1f1;
     padding: 20px;
     border-radius: 10px;
     margin-left: 20px;
-    position: sticky; /* Se "pega" en su posición al hacer scroll */
-    top: 20px; /* Se mantiene en la parte superior con 20px de margen */
-    align-self: flex-start; /* Alinea la barra al inicio, sin extenderse */
+    position: sticky; 
+    top: 20px; 
+    align-self: flex-start; 
 }
 
 
